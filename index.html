@@ -4,16 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Business Benchmark Group | Flight Plan</title>
+    <link rel="stylesheet" href="dist/fonts/fonts.css">
     <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="stylesheet" href="dist/css/styles.css">
 </head>
+<style>
+    @page {
+        size: letter
+    }
+</style>
 
-<body>
-    <div class="flex justify-between">
-        <h1 class="text-3xl font-bold text-rose-700">Flight Plan</h1>
-        <img src="dist/images/bbm_logo.jpg" alt="Business Benchmark Group Logo" class="h-16 w-auto">
-    </div>
+<body class="letter text-zinc-500">
+    <section class="sheet rounded" style="padding: 8mm 6mm 4mm 10mm">
+        <div class="flex justify-between mb-8">
+            <div class="flex flex-col">
+                <p class="text-sm font-semibold tracking-widest text-slate-500">PLANNING INTENSIVE</p>
+                <h1 class="text-5xl font-bold text-rose-600 tracking-tighter">Flight Plan</h1>
+            </div>
+            <img src="dist/images/bbm_logo.jpg" alt="Business Benchmark Group Logo" class="h-16 w-auto">
+        </div>
+        <form action="#" class="flex justify-between">
+            <div class="flex flex-col">
+                <label for="business" class="block text-xs font-medium flex-grow">NAME OF BUSINESS</label>
+                <input type="text" name="business" id="business" placeholder="[ ]" class="border-b border-b-slate-400">
+            </div>
+            <div class="flex flex-col">
+                <label for="target" class="block text-xs font-medium">PROFIT GOAL FOR NEXT 12 MONTHS</label>
+                <input type="text" name="target" id="target" placeholder="[ ]" class="border-b border-b-slate-400">
+            </div>
+        </form>
+    </section>
 </body>
 
 </html>

@@ -1,0 +1,32 @@
+@page { margin: 0 }
+body { margin: 0 }
+.sheet {
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  page-break-after: always;
+}
+
+body.letter           .sheet { width: 216mm; height: 279mm }
+body.letter.landscape .sheet { width: 280mm; height: 215mm }
+
+.sheet.padding-10mm { padding: 10mm }
+.sheet.padding-15mm { padding: 15mm }
+.sheet.padding-20mm { padding: 20mm }
+.sheet.padding-25mm { padding: 25mm }
+
+@media screen {
+  body { background: #e0e0e0 }
+  .sheet {
+    background: white;
+    border: solid 1px #dcdcdc;
+    margin: 5mm auto;
+  }
+}
+
+@media print {
+  body.letter, body.legal    { width: 216mm }
+  body.letter.landscape      { width: 280mm }
+}
+
