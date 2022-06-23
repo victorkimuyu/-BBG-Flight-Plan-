@@ -1,0 +1,1478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="AdobeLiveCycleDesigner_V11.0.1.20130826.2.901444" APIVersion="3.6.13235.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2022-06-23T08:23:48Z" uuid="54273b45-6c75-45ba-921e-2847280155a2">
+<template xmlns="http://www.xfa.org/schema/xfa-template/3.3/">
+   <?formServer defaultPDFRenderFormat acrobat10.0dynamic?>
+   <?formServer allowRenderCaching 0?>
+   <?formServer formModel both?>
+   <subform name="form1" layout="tb" locale="en_GB" restoreState="auto">
+      <pageSet>
+         <pageArea name="Page1" id="Page1">
+            <contentArea w="215.9mm" h="279.4mm"/>
+            <medium stock="letter" short="215.9mm" long="279.4mm"/>
+            <draw name="Text2" w="52.905mm" y="175.218mm" x="10.087mm" rotate="90" anchorType="middleCenter" h="10.317mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <text>TACTICAL</text>
+               </value>
+               <font typeface="Gotham" baselineShift="0pt" letterSpacing="0.08em" size="20pt" weight="bold">
+                  <fill>
+                     <color value="240,0,80"/>
+                  </fill>
+               </font>
+               <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+               <para hAlign="center" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+            </draw>
+            <draw name="Text2" w="52.905mm" y="103.384mm" x="10.087mm" rotate="90" anchorType="middleCenter" h="10.317mm">
+               <ui>
+                  <textEdit/>
+               </ui>
+               <value>
+                  <text>STRATEGIC</text>
+               </value>
+               <font typeface="Gotham" baselineShift="0pt" letterSpacing="0.08em" size="20pt" weight="bold">
+                  <fill>
+                     <color value="0,128,192"/>
+                  </fill>
+               </font>
+               <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+               <para hAlign="center" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+            </draw>
+            <?templateDesigner expand 1?></pageArea>
+         <?templateDesigner expand 1?></pageSet>
+      <subform w="215.9mm" h="279.4mm">
+         <margin topInset="4.2333mm" rightInset="4.2333mm" leftInset="11.2889mm"/>
+         <draw name="Text1" w="78.06mm" h="6.514mm" x="4.149mm" y="3.288mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text>PLANNING INTENSIVE</text>
+            </value>
+            <font typeface="Circular Std" letterSpacing="0.1em" size="12pt" weight="bold">
+               <fill>
+                  <color value="57,109,138"/>
+               </fill>
+            </font>
+            <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+         </draw>
+         <draw name="Text1" w="77.258mm" h="15.866mm" x="3.178mm" y="8.754mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text>Flight Plan</text>
+            </value>
+            <font typeface="Gotham" size="40pt" weight="bold" letterSpacing="-0.06em">
+               <fill>
+                  <color value="234,0,53"/>
+               </fill>
+            </font>
+            <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+         </draw>
+         <draw name="Image1" y="3.91mm" x="140.265mm" w="60.112mm" h="16.088mm">
+            <value>
+               <image href="..\dist\images\bbm_logo.jpg" contentType="image/jpeg"/>
+            </value>
+            <ui>
+               <imageEdit/>
+            </ui>
+         </draw>
+         <field name="TextField1" y="38.101mm" x="4.851mm" w="100.363mm" h="18.516mm">
+            <ui>
+               <textEdit multiLine="1" hScrollPolicy="off" vScrollPolicy="off">
+                  <border>
+                     <edge>
+                        <color value="170,176,183"/>
+                     </edge>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <corner>
+                        <color value="170,176,183"/>
+                     </corner>
+                     <corner/>
+                     <corner presence="hidden"/>
+                     <corner/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial" size="11pt" letterSpacing="0.01em">
+               <fill>
+                  <color value="51,51,51"/>
+               </fill>
+            </font>
+            <margin topInset="1mm" bottomInset="1mm" leftInset="0mm" rightInset="1mm"/>
+            <caption reserve="4.9333mm" placement="top">
+               <font typeface="Circular Std Medium" letterSpacing="0.05em" size="9pt">
+                  <fill>
+                     <color value="57,109,138"/>
+                  </fill>
+               </font>
+               <para vAlign="middle"/>
+               <value>
+                  <text>NAME OF BUSINESS</text>
+               </value>
+            </caption>
+         </field>
+         <field name="NumericField1" y="38.101mm" x="128.165mm" w="69.147mm" h="18.346mm">
+            <ui>
+               <numericEdit>
+                  <border presence="hidden"/>
+                  <margin/>
+               </numericEdit>
+            </ui>
+            <font typeface="Arial" size="24pt" weight="bold">
+               <fill>
+                  <color value="51,51,51"/>
+               </fill>
+            </font>
+            <margin topInset="1mm" bottomInset="1mm" leftInset="0mm" rightInset="0mm"/>
+            <para vAlign="middle" hAlign="right"/>
+            <caption reserve="0.185306in" placement="top">
+               <font typeface="Circular Std Medium" letterSpacing="0.05em" size="9pt">
+                  <fill>
+                     <color value="57,109,138"/>
+                  </fill>
+               </font>
+               <para vAlign="bottom" hAlign="right"/>
+               <value>
+                  <exData contentType="text/html">
+                     <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="font-weight:normal;text-decoration:none">PROFIT GOAL FOR NEXT 12 MONTHS</p></body>
+                  </exData>
+               </value>
+            </caption>
+            <format>
+               <picture>null{}|zero{}|num{'$'zz,zzz,zzz,zzz}</picture>
+            </format>
+            <value>
+               <float>1000000000</float>
+            </value>
+         </field>
+         <subform name="Table1" layout="table" columnWidths="38.5747mm 38.5747mm 38.5747mm 38.5747mm 38.5747mm" x="5.373mm" y="64.207mm">
+            <border>
+               <edge presence="hidden"/>
+               <corner presence="hidden"/>
+            </border>
+            <subform layout="row" name="HeaderRow" id="HeaderRow_ID" y="0mm">
+               <assist role="TH"/>
+               <draw h="10.587mm" colSpan="2" y="0mm" w="84.314mm">
+                  <value>
+                     <text>10,000 Ft. (90 DAYS)</text>
+                  </value>
+                  <font typeface="Gotham Narrow" baselineShift="0pt" weight="bold">
+                     <fill>
+                        <color value="255,255,255"/>
+                     </fill>
+                  </font>
+                  <border>
+                     <edge>
+                        <color value="31,60,75"/>
+                     </edge>
+                     <corner thickness="0.1778mm">
+                        <color value="31,60,75"/>
+                     </corner>
+                     <fill>
+                        <color value="57,109,138"/>
+                     </fill>
+                  </border>
+                  <para vAlign="middle" hAlign="center" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt" lineHeight="11pt"/>
+               </draw>
+               <draw h="10.587mm" colSpan="2" y="0mm" w="84.314mm">
+                  <value>
+                     <text>  20,000 Ft. (6 MONTHS)</text>
+                  </value>
+                  <font typeface="Gotham Narrow" baselineShift="0pt" weight="bold">
+                     <fill>
+                        <color value="255,255,255"/>
+                     </fill>
+                  </font>
+                  <border>
+                     <edge>
+                        <color value="31,60,75"/>
+                     </edge>
+                     <corner thickness="0.1778mm">
+                        <color value="31,60,75"/>
+                     </corner>
+                     <fill>
+                        <color value="57,109,138"/>
+                     </fill>
+                  </border>
+                  <para vAlign="middle" hAlign="center" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt" lineHeight="11pt"/>
+               </draw>
+               <draw h="10.587mm" x="0mm" y="0mm">
+                  <value>
+                     <text>30,000 Ft. 
+(12 MONTHS)</text>
+                  </value>
+                  <font typeface="Gotham Narrow" baselineShift="0pt" weight="bold">
+                     <fill>
+                        <color value="255,255,255"/>
+                     </fill>
+                  </font>
+                  <border>
+                     <edge>
+                        <color value="57,109,138"/>
+                     </edge>
+                     <corner thickness="0.1778mm">
+                        <color value="57,109,138"/>
+                     </corner>
+                     <fill>
+                        <color value="57,109,138"/>
+                     </fill>
+                  </border>
+                  <para vAlign="middle" hAlign="center" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt" lineHeight="11pt"/>
+               </draw>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+               <occur max="-1"/>
+               <?templateDesigner expand 1?></subform>
+            <subform layout="row" name="Row1" y="0mm">
+               <assist role="TR"/>
+               <field name="Cell2" h="51.507mm" w="25.4mm" y="0mm">
+                  <ui>
+                     <textEdit multiLine="1" hScrollPolicy="off" vScrollPolicy="off">
+                        <border>
+                           <edge>
+                              <color value="68,88,111"/>
+                           </edge>
+                           <edge presence="hidden"/>
+                           <edge presence="hidden"/>
+                           <edge presence="hidden"/>
+                           <corner>
+                              <color value="68,88,111"/>
+                           </corner>
+                           <corner/>
+                           <corner presence="hidden"/>
+                           <corner/>
+                        </border>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Myriad Pro" size="8.5pt">
+                     <fill>
+                        <color value="51,51,51"/>
+                     </fill>
+                  </font>
+                  <margin topInset="1.7639mm" bottomInset="1.7639mm" leftInset="1.7639mm" rightInset="1.7639mm"/>
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="6pt" spaceBelow="6pt"/>
+                  <border>
+                     <edge>
+                        <color value="57,109,138"/>
+                     </edge>
+                     <corner thickness="0.1778mm">
+                        <color value="57,109,138"/>
+                     </corner>
+                     <fill>
+                        <color value="255,255,153"/>
+                     </fill>
+                  </border>
+                  <caption placement="top" reserve="6.7028mm">
+                     <value>
+                        <text>Major / Minor 1</text>
+                     </value>
+                     <para spaceAbove="0pt" marginLeft="0pt" vAlign="middle"/>
+                     <font typeface="Circular Std" weight="bold" size="9pt">
+                        <fill>
+                           <color value="68,88,111"/>
+                        </fill>
+                     </font>
+                  </caption>
+                  <value>
+                     <text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</text>
+                  </value>
+               </field>
+               <field name="Cell3" h="51.507mm" w="25.4mm" y="0mm">
+                  <ui>
+                     <textEdit multiLine="1" hScrollPolicy="off" vScrollPolicy="off">
+                        <border>
+                           <edge>
+                              <color value="68,88,111"/>
+                           </edge>
+                           <edge presence="hidden"/>
+                           <edge presence="hidden"/>
+                           <edge presence="hidden"/>
+                           <corner>
+                              <color value="68,88,111"/>
+                           </corner>
+                           <corner/>
+                           <corner presence="hidden"/>
+                           <corner/>
+                        </border>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Myriad Pro" size="8.5pt">
+                     <fill>
+                        <color value="51,51,51"/>
+                     </fill>
+                  </font>
+                  <margin topInset="1.7639mm" bottomInset="1.7639mm" leftInset="1.7639mm" rightInset="1.7639mm"/>
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="6pt" spaceBelow="6pt"/>
+                  <border>
+                     <edge>
+                        <color value="57,109,138"/>
+                     </edge>
+                     <corner thickness="0.1778mm">
+                        <color value="57,109,138"/>
+                     </corner>
+                     <fill>
+                        <color value="255,255,153"/>
+                     </fill>
+                  </border>
+                  <caption placement="top" reserve="6.7028mm">
+                     <value>
+                        <exData contentType="text/html">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="font-family:'Circular Std Bold';font-weight:normal;text-decoration:none;letter-spacing:0in">Major / Minor 2</p></body>
+                        </exData>
+                     </value>
+                     <font typeface="Circular Std" baselineShift="0pt" weight="bold" size="9pt">
+                        <fill>
+                           <color value="68,88,111"/>
+                        </fill>
+                     </font>
+                     <para spaceAbove="0pt" marginLeft="0pt" spaceBelow="0pt" textIndent="0pt" marginRight="0pt" vAlign="middle"/>
+                  </caption>
+                  <value>
+                     <text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</text>
+                  </value>
+               </field>
+               <field name="Cell4" h="51.507mm" w="25.4mm" y="0mm">
+                  <ui>
+                     <textEdit multiLine="1" hScrollPolicy="off" vScrollPolicy="off">
+                        <border>
+                           <edge>
+                              <color value="68,88,111"/>
+                           </edge>
+                           <edge presence="hidden"/>
+                           <edge presence="hidden"/>
+                           <edge presence="hidden"/>
+                           <corner>
+                              <color value="68,88,111"/>
+                           </corner>
+                           <corner/>
+                           <corner presence="hidden"/>
+                           <corner/>
+                        </border>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Myriad Pro" size="8.5pt">
+                     <fill>
+                        <color value="51,51,51"/>
+                     </fill>
+                  </font>
+                  <margin topInset="1.7639mm" bottomInset="1.7639mm" leftInset="1.7639mm" rightInset="1.7639mm"/>
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="6pt" spaceBelow="6pt"/>
+                  <border>
+                     <edge>
+                        <color value="57,109,138"/>
+                     </edge>
+                     <corner thickness="0.1778mm">
+                        <color value="57,109,138"/>
+                     </corner>
+                     <fill>
+                        <color value="255,170,191"/>
+                     </fill>
+                  </border>
+                  <caption placement="top" reserve="6.7028mm">
+                     <value>
+                        <exData contentType="text/html">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="font-family:'Circular Std Bold';font-weight:normal;text-decoration:none;letter-spacing:0in">Major 1</p></body>
+                        </exData>
+                     </value>
+                     <para spaceAbove="0pt" marginLeft="0pt" vAlign="middle"/>
+                     <font typeface="Circular Std" weight="bold" size="9pt">
+                        <fill>
+                           <color value="68,88,111"/>
+                        </fill>
+                     </font>
+                  </caption>
+                  <value>
+                     <text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</text>
+                  </value>
+               </field>
+               <field name="Cell5" h="51.507mm" w="25.4mm" y="0mm">
+                  <ui>
+                     <textEdit multiLine="1" hScrollPolicy="off" vScrollPolicy="off">
+                        <border>
+                           <edge>
+                              <color value="68,88,111"/>
+                           </edge>
+                           <edge presence="hidden"/>
+                           <edge presence="hidden"/>
+                           <edge presence="hidden"/>
+                           <corner>
+                              <color value="68,88,111"/>
+                           </corner>
+                           <corner/>
+                           <corner presence="hidden"/>
+                           <corner/>
+                        </border>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Myriad Pro" size="8.5pt">
+                     <fill>
+                        <color value="51,51,51"/>
+                     </fill>
+                  </font>
+                  <margin topInset="1.7639mm" bottomInset="1.7639mm" leftInset="1.7639mm" rightInset="1.7639mm"/>
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="6pt" spaceBelow="6pt"/>
+                  <border>
+                     <edge>
+                        <color value="57,109,138"/>
+                     </edge>
+                     <corner thickness="0.1778mm">
+                        <color value="57,109,138"/>
+                     </corner>
+                     <fill>
+                        <color value="255,170,191"/>
+                     </fill>
+                  </border>
+                  <caption placement="top" reserve="6.7028mm">
+                     <value>
+                        <exData contentType="text/html">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="font-family:'Circular Std Bold';font-weight:normal;letter-spacing:0in">Major 2</p></body>
+                        </exData>
+                     </value>
+                     <para spaceAbove="0pt" marginLeft="0pt" vAlign="middle"/>
+                     <font typeface="Circular Std" weight="bold" size="9pt">
+                        <fill>
+                           <color value="68,88,111"/>
+                        </fill>
+                     </font>
+                  </caption>
+                  <value>
+                     <text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</text>
+                  </value>
+               </field>
+               <field name="Cell6" h="51.507mm" w="25.4mm" y="0mm">
+                  <ui>
+                     <textEdit multiLine="1" hScrollPolicy="off" vScrollPolicy="off">
+                        <border>
+                           <edge>
+                              <color value="68,88,111"/>
+                           </edge>
+                           <edge presence="hidden"/>
+                           <edge presence="hidden"/>
+                           <edge presence="hidden"/>
+                           <corner>
+                              <color value="68,88,111"/>
+                           </corner>
+                           <corner/>
+                           <corner presence="hidden"/>
+                           <corner/>
+                        </border>
+                     </textEdit>
+                  </ui>
+                  <font typeface="Myriad Pro" size="8.5pt">
+                     <fill>
+                        <color value="51,51,51"/>
+                     </fill>
+                  </font>
+                  <margin topInset="1.7639mm" bottomInset="1.7639mm" leftInset="1.7639mm" rightInset="1.7639mm"/>
+                  <para marginLeft="0pt" marginRight="0pt" spaceAbove="6pt" spaceBelow="6pt"/>
+                  <border>
+                     <edge>
+                        <color value="57,109,138"/>
+                     </edge>
+                     <corner thickness="0.1778mm">
+                        <color value="57,109,138"/>
+                     </corner>
+                     <fill>
+                        <color value="204,255,204"/>
+                     </fill>
+                  </border>
+                  <caption placement="top" reserve="6.7028mm">
+                     <value>
+                        <exData contentType="text/html">
+                           <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p style="font-family:'Circular Std Bold';font-weight:normal;text-decoration:none;letter-spacing:0in">Major 1</p></body>
+                        </exData>
+                     </value>
+                     <para spaceAbove="0pt" marginLeft="0pt" vAlign="middle"/>
+                     <font typeface="Circular Std" weight="bold" size="9pt">
+                        <fill>
+                           <color value="68,88,111"/>
+                        </fill>
+                     </font>
+                  </caption>
+                  <value>
+                     <text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</text>
+                  </value>
+               </field>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+               <?templateDesigner expand 1?></subform>
+            <subform layout="row" name="Row2" y="0mm">
+               <assist role="TR"/>
+               <draw h="6.707mm" name="Cell2" y="0mm">
+                  <border>
+                     <edge>
+                        <color value="57,109,138"/>
+                     </edge>
+                     <corner thickness="0.1778mm">
+                        <color value="57,109,138"/>
+                     </corner>
+                     <fill>
+                        <color value="240,0,80"/>
+                     </fill>
+                  </border>
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <font typeface="Gotham Narrow" weight="bold">
+                     <fill>
+                        <color value="255,255,255"/>
+                     </fill>
+                  </font>
+                  <margin topInset="0mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                  <para vAlign="middle" hAlign="center" spaceAbove="4pt"/>
+                  <value>
+                     <text>TEAM</text>
+                  </value>
+               </draw>
+               <draw name="Cell2" w="47.551mm" minH="6.707mm" y="0mm">
+                  <border>
+                     <edge>
+                        <color value="57,109,138"/>
+                     </edge>
+                     <corner thickness="0.1778mm">
+                        <color value="57,109,138"/>
+                     </corner>
+                     <fill>
+                        <color value="240,0,80"/>
+                     </fill>
+                  </border>
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <font typeface="Gotham Narrow" weight="bold">
+                     <fill>
+                        <color value="255,255,255"/>
+                     </fill>
+                  </font>
+                  <margin topInset="0mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                  <para vAlign="middle" hAlign="center" spaceAbove="4pt"/>
+                  <value>
+                     <text>TEAM</text>
+                  </value>
+               </draw>
+               <draw h="6.707mm" name="Cell4" y="0mm">
+                  <border>
+                     <edge>
+                        <color value="57,109,138"/>
+                     </edge>
+                     <corner thickness="0.1778mm">
+                        <color value="57,109,138"/>
+                     </corner>
+                     <fill>
+                        <color value="240,0,80"/>
+                     </fill>
+                  </border>
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <font typeface="Gotham Narrow" weight="bold">
+                     <fill>
+                        <color value="255,255,255"/>
+                     </fill>
+                  </font>
+                  <margin topInset="0mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                  <para vAlign="middle" hAlign="center" spaceAbove="4pt"/>
+                  <value>
+                     <text>SALES</text>
+                  </value>
+               </draw>
+               <draw h="6.707mm" name="Cell5" y="0mm">
+                  <border>
+                     <edge>
+                        <color value="57,109,138"/>
+                     </edge>
+                     <corner thickness="0.1778mm">
+                        <color value="57,109,138"/>
+                     </corner>
+                     <fill>
+                        <color value="240,0,80"/>
+                     </fill>
+                  </border>
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <font typeface="Gotham Narrow" weight="bold">
+                     <fill>
+                        <color value="255,255,255"/>
+                     </fill>
+                  </font>
+                  <margin topInset="0mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                  <para vAlign="middle" hAlign="center" spaceAbove="4pt"/>
+                  <value>
+                     <text>FINANCE</text>
+                  </value>
+               </draw>
+               <draw h="6.707mm" name="Cell6" y="0mm">
+                  <border>
+                     <edge>
+                        <color value="57,109,138"/>
+                     </edge>
+                     <corner thickness="0.1778mm">
+                        <color value="57,109,138"/>
+                     </corner>
+                     <fill>
+                        <color value="240,0,80"/>
+                     </fill>
+                  </border>
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <font typeface="Gotham Narrow" weight="bold">
+                     <fill>
+                        <color value="255,255,255"/>
+                     </fill>
+                  </font>
+                  <margin topInset="0mm" bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm"/>
+                  <para vAlign="middle" hAlign="center" spaceAbove="4pt"/>
+                  <value>
+                     <text>OPERATIONS</text>
+                  </value>
+               </draw>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+               <?templateDesigner expand 1?></subform>
+            <subform layout="row" name="Row3" y="0mm">
+               <assist role="TR"/>
+               <field name="Cell2" h="28.222mm" y="0mm">
+                  <ui>
+                     <choiceList/>
+                  </ui>
+                  <font typeface="Myriad Pro" size="7.8pt">
+                     <fill>
+                        <color value="51,51,51"/>
+                     </fill>
+                  </font>
+                  <margin topInset="1.4111mm" bottomInset="1.4111mm" leftInset="1.4111mm" rightInset="1.4111mm"/>
+                  <border>
+                     <edge>
+                        <color value="57,109,138"/>
+                     </edge>
+                     <corner thickness="0.1778mm">
+                        <color value="57,109,138"/>
+                     </corner>
+                  </border>
+                  <items save="1"/>
+                  <event activity="initialize" name="event__initialize">
+                     <script contentType="application/x-javascript">this.setItems(
+    "1. The business has a \u000adefault diary that the team \u000arefer to daily / weekly /\u000amonthly\u000a,2. I regularly review my \u000alow value tasks and \u000aconsistently delegate / \u000aoutsource them\u000a,3. My annual goals are \u000abroken down into \u000aquarterly/monthly/ \u000aweekly/daily actions\u000a,4. I have audited my time \u000afor a week and\u000a understand where my time is \u000aeffective and / or wasted\u000a,5. I have a regular time in \u000awhich I plan the following \u000aweek and prioritise my key \u000aactivities\u000a,6. I have time slots in \u000amy diary for my own \u000ahealth and enjoyment \u000a – understanding that life\u000abalance is important to the \u000aproductivity of my business\u000a,7. I have a default diary \u000aand refer to it daily/weekly/\u000amonthly\u000a,8. I have an allocated \u000a‘hour of power’ \u000a(owner’s time) each week \u000ato conduct my thinking \u000atime for the business\u000a,9. I have a \u000a‘things to achieve’ vs a \u000a‘things to do’ plan\u000a,--Flight Plan 6+ Options--\u000a,10. Allocated Exitability \u000athinking time of 2 hours \u000aper week\u000a,11. Board Writing tim e\u000aper week allocated\u000a,12. ‘A’ grade stakeholders \u000afeedback time allocated \u000aweekly\u000a"
+)
+if(this.rawValue == null){
+	this.selectedIndex = 0;
+}
+</script>
+                  </event>
+                  <caption>
+                     <font typeface="Myriad Pro" size="7.8pt" weight="bold"/>
+                  </caption>
+               </field>
+               <field name="Cell2" h="28.222mm" w="1.518694in" y="0mm">
+                  <ui>
+                     <choiceList/>
+                  </ui>
+                  <font typeface="Myriad Pro" size="7.8pt">
+                     <fill>
+                        <color value="51,51,51"/>
+                     </fill>
+                  </font>
+                  <margin topInset="1.4111mm" bottomInset="1.4111mm" leftInset="1.4111mm" rightInset="1.4111mm"/>
+                  <border>
+                     <edge>
+                        <color value="57,109,138"/>
+                     </edge>
+                     <corner thickness="0.1778mm">
+                        <color value="57,109,138"/>
+                     </corner>
+                  </border>
+                  <items save="1"/>
+                  <event activity="initialize" name="event__initialize">
+                     <script contentType="application/x-javascript">this.setItems(
+    "1. We have a plan to grow \u000aour leadership group; so \u000athat I will no longer be \u000aneeded in the day-to-day \u000aoperations of the business\u000a,2. I have an up-to-date \u000aorganisational chart\u000a,3. I have an organisational \u000achart for what the business \u000awill look like in five years’ \u000atime when we have \u000adoubled our revenue and \u000ahave shared this with the \u000ateam\u000a,4. Each team member \u000aunderstands how their \u000aachievements will be \u000ameasured; i.e. via Key \u000aPerformance Indicators \u000a(KPIs)\u000a,5. I hold weekly functional \u000ateam meetings (e.g. \u000aFinance/Sales/Operations\u000a/Marketing/Management; \u000awhich result in \u000aaccountable actions with \u000ameasurable outcomes\u000a,6. I delegate to my \u000ateam and empower them \u000ato make decisions that \u000abenefit the business\u000a,7. We have a documented \u000arecruitment process for \u000aeach role in the business\u000a,8. Every team member \u000aunderstands what their \u000aroles and responsibilities \u000aare\u000a,9. Our Culture has been \u000aidentified; written down \u000aand shared with the team\u000a,10. I have weekly \u000ameetings with key \u000ateam members and have \u000aa structured performance \u000amanagement process\u000a,11. I have a documented \u000ainduction and ongoing \u000atraining process for all \u000ateam members\u000a,. --Flight Plan 6+ Options--\u000a,12. Management team design \u000aand progression a weekly \u000afocus\u000a,13. Questions vs Listening \u000aratios improving and \u000ascoreboard driven. \u000a(Vs emotions)\u000a,14. Talent Mapping of all \u000aroles in the business are \u000aup to date.\u000a",1
+)
+if (this.rawValue == null){
+	this.selectedIndex = 0;
+}
+</script>
+                  </event>
+                  <caption>
+                     <font typeface="Myriad Pro" size="7.8pt" weight="bold"/>
+                  </caption>
+               </field>
+               <field name="Cell2" h="28.222mm" w="1.518694in" y="0mm">
+                  <ui>
+                     <choiceList/>
+                  </ui>
+                  <font typeface="Myriad Pro" size="7.8pt">
+                     <fill>
+                        <color value="51,51,51"/>
+                     </fill>
+                  </font>
+                  <margin topInset="1.4111mm" bottomInset="1.4111mm" leftInset="1.4111mm" rightInset="1.4111mm"/>
+                  <border>
+                     <edge>
+                        <color value="57,109,138"/>
+                     </edge>
+                     <corner thickness="0.1778mm">
+                        <color value="57,109,138"/>
+                     </corner>
+                  </border>
+                  <items save="1"/>
+                  <event activity="initialize" name="event__initialize">
+                     <script contentType="application/x-javascript">this.setItems(
+    "1. The sales team \u000aundertakes regular sales \u000atraining\u000a,2. All our clients have \u000abeen graded as A; B; C; or D,3. I have a systemised \u000areferral strategy in place, \u000aand it is being tested and \u000ameasured\u000a,4. I have identified my \u000atarget market and market \u000aspecifically to them– \u000aeverything we do in \u000amarketing and sales is \u000aabout them\u000a,5. I actively work with 3 \u000anon competing Strategic \u000aAlliances who target \u000athe same market as I do, \u000a6. I have a structured 7 \u000astep (multi step)sales \u000aprocess and I measure \u000athe conversion rate and \u000atimeline between each step\u000a,7. The team use sales \u000ascripts and processes that \u000aare documented – and \u000aknow how to upsell and \u000across sell\u000a,8. I am actively using a \u000aminimum of 5 different \u000aways to generate leads in \u000athe business, and they are \u000aall tested and measured\u000a,9. Our Quote Register and \u000afollow up process is \u000aupdated weekly\u000a,10. The business has a \u000adatabase of clients and \u000aprospects, and we contact \u000athem at least every 30 \u000adays with offers and \u000ainformation\u000a,11. We have \u000amonthly/quarterly sales \u000atargets that are \u000acommunicated and \u000acommitted to by everyone \u000aon the team\u000a,--Flight Plan 6+ Options--\u000a,12. ITM is GP% driven and \u000areviewing our Quotes \u000aRegister weekly in the % \u000aof jobs/client's growth\u000a,13. Rule of 3’s mastery is \u000aoverlayed within our Sales \u000aProcess and tested and \u000ameasured.\u000a,14. Resourcing our Leadflow \u000ateam is driven via \u000ascoreboards and constant \u000aactivities we are executing \u000awithin ROI plans.\u000a"
+)
+if (this.rawValue == null){
+	this.selectedIndex = 0;
+}
+</script>
+                  </event>
+                  <caption>
+                     <font typeface="Myriad Pro" size="7.8pt" weight="bold"/>
+                  </caption>
+               </field>
+               <field name="Cell2" h="28.222mm" w="1.518694in" y="0mm">
+                  <ui>
+                     <choiceList/>
+                  </ui>
+                  <font typeface="Myriad Pro" size="7.8pt">
+                     <fill>
+                        <color value="51,51,51"/>
+                     </fill>
+                  </font>
+                  <margin topInset="1.4111mm" bottomInset="1.4111mm" leftInset="1.4111mm" rightInset="1.4111mm"/>
+                  <border>
+                     <edge>
+                        <color value="57,109,138"/>
+                     </edge>
+                     <corner thickness="0.1778mm">
+                        <color value="57,109,138"/>
+                     </corner>
+                  </border>
+                  <items save="1"/>
+                  <event activity="initialize" name="event__initialize">
+                     <script contentType="application/x-javascript">this.setItems(
+    "1. I have a Cashflow \u000aForecast for the business \u000a(13 weeks minimum) and \u000aupdate it weekly\u000a,2. I have a minimum of 3 \u000astrategies in place to \u000aincrease the Gross Profit\u000a,3. I know my Cost Per \u000aLead and Acquisition Cost \u000aby lead source\u000a,4. I know how many sales, \u000acustomers, or dollars I \u000aneed to make per day/\u000aweek or month to \u000aBreakeven inclusive of a \u000aminimum profit\u000a,5. I read and understand \u000athe monthly BBG financial \u000areport and have minimum \u000aof two areas that I am \u000aconstantly working on to \u000aimprove my net cash \u000aposition in six months’ time\u000a,6. I have an annual \u000amarketing plan that \u000ais Budget driven,\u000a7.I know the % Gross \u000aProfit (GP) that I make on \u000aevery sale\u000a,8. I budget for Profit and \u000ahave set daily/weekly/\u000amonthly profit goals\u000a,9. I set time aside at the \u000aend of each month to \u000areview my key numbers \u000aand business’ \u000aperformance,--Flight Plan 6+ Options--\u000a,10. I have a 52-week \u000arolling Cashflow \u000aForecasting which \u000aincludes QR and WIP \u000aand it is reviewed \u000aweekly\u000a,11. Seven levers to a \u000aprofitable model \u000astrategy/ies being \u000aexecuted within the 90-\u000aday plans.\u000a,12. Pricing and business \u000amodels constantly \u000areviewed and measured.\u000a \u000a", 1
+)
+if (this.rawValue == null){
+	this.selectedIndex = 0;
+}
+</script>
+                  </event>
+                  <caption>
+                     <font typeface="Myriad Pro" size="7.8pt" weight="bold"/>
+                  </caption>
+               </field>
+               <field name="Cell2" h="28.222mm" w="1.518694in" y="0mm">
+                  <ui>
+                     <choiceList/>
+                  </ui>
+                  <font typeface="Myriad Pro" size="7.8pt">
+                     <fill>
+                        <color value="51,51,51"/>
+                     </fill>
+                  </font>
+                  <margin topInset="1.4111mm" bottomInset="1.4111mm" leftInset="1.4111mm" rightInset="1.4111mm"/>
+                  <border>
+                     <edge>
+                        <color value="57,109,138"/>
+                     </edge>
+                     <corner thickness="0.1778mm">
+                        <color value="57,109,138"/>
+                     </corner>
+                  </border>
+                  <items save="1"/>
+                  <event activity="initialize" name="event__initialize">
+                     <script contentType="application/x-javascript">this.setItems(
+    "1. We regularly survey our \u000acustomers to determine \u000ahow we can better serve \u000athem \u000a,2. All tasks that can \u000apossibly be automated \u000ahave been; and the team \u000aare responsible for \u000adelegating more tasks \u000ato automation as \u000aappropriate\u000a,3. There are documented \u000aflow charts / procedures \u000ain place to ensure every \u000acustomer aexperience is \u000athe same \u000a,4. The business analyses \u000aits mistakes; and we take \u000aactive steps to ensure \u000athe error cannot occur \u000aagain by upgrading our \u000asystems \u000a,5. We consistently review \u000aour cost and way of doing \u000abusiness and are looking \u000afor improvements in \u000aefficiencies whether that is \u000apeople or machines\u000a,6. The business has \u000adefined customer service \u000alevels that all team \u000amembers are aware of \u000aand are monitored \u000aagainst\u000a,7. We consistently \u000abrainstorm as a team; \u000aways to exceed our\u000acustomer expectations\u000a,--Flight Plan 6+ Options--\u000a,8. Client and team lifetime \u000avalue scores are confirmed; \u000aand improvement plans \u000aare being actioned.\u000a,9. Team capacity and \u000autilisation is 85% weekly/\u000amonthly and reviewed \u000aconstantly.\u000a,10. ‘A’ grade client ratio \u000aof total clients is at 65%+ \u000aby jobs and dollar value \u000ainvoiced\u000a,11. The business is \u000aworking on an updated \u000aversion of the Operations \u000a‘Bible’ for all areas in the \u000abusiness.\u000a", 1
+)
+
+if (this.rawValue == null){
+	this.selectedIndex = 0;
+}
+</script>
+                  </event>
+                  <caption>
+                     <font typeface="Myriad Pro" size="7.8pt" weight="bold"/>
+                  </caption>
+               </field>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+               <?templateDesigner expand 1?></subform>
+            <keep intact="contentArea"/>
+            <?templateDesigner rowpattern first:1, next:1, firstcolor:f0f0f0, nextcolor:ffffff, apply:0?>
+            <overflow leader="HeaderRow"/>
+            <?templateDesigner expand 0?>
+            <subform layout="row" name="Row3" y="0mm">
+               <assist role="TR"/>
+               <field name="Cell2" h="28.222mm" w="1.518694in" y="0mm">
+                  <ui>
+                     <choiceList/>
+                  </ui>
+                  <font typeface="Myriad Pro" size="7.8pt">
+                     <fill>
+                        <color value="51,51,51"/>
+                     </fill>
+                  </font>
+                  <margin topInset="1.4111mm" bottomInset="1.4111mm" leftInset="1.4111mm" rightInset="1.4111mm"/>
+                  <border>
+                     <edge>
+                        <color value="57,109,138"/>
+                     </edge>
+                     <corner thickness="0.1778mm">
+                        <color value="57,109,138"/>
+                     </corner>
+                  </border>
+                  <items save="1"/>
+                  <event activity="initialize" name="event__initialize">
+                     <script contentType="application/x-javascript">this.setItems(
+    "1. The business has a \u000adefault diary that the team\u000a refer to daily / weekly \u000a /monthly \u000a,2. I regularly review my \u000alow value tasks and \u000aconsistently delegate / \u000aoutsource them\u000a,3. My annual goals are \u000abroken down into quarterly/\u000amonthly/weekly/daily \u000aactions\u000a,4. I have audited my time \u000afor a week and \u000aunderstand where my \u000atime is effective and / or \u000awasted\u000a,5. I have a regular time in \u000awhich I plan the following \u000aweek and prioritise my key \u000aactivities\u000a,6. I have time slots in my \u000adiary for my own health \u000aand enjoyment –\u000aunderstanding that \u000alife balance is important \u000ato the productivity of my \u000abusiness\u000a,7. I have a default \u000adiary and refer to it \u000adaily/weekly/monthly\u000a,8. I have an allocated ‘ \u000a hour of power’ \u000a(owner’s time) each \u000a week to conduct my \u000athinking time for the \u000abusiness\u000a,9. I have a ‘things to  \u000aachieve’  vs a ‘things to do’ \u000aplan,--Flight Plan 6+ Options--\u000a,10. Allocated Exitability \u000athinking time of \u000a2 hours per week\u000a,11. Board Writing time per \u000aweek allocated\u000a,12. ‘A’ grade stakeholders \u000afeedback time allocated \u000aweekly\u000a", 1
+)
+
+if (this.rawValue == null){
+	this.selectedIndex = 0;
+}
+
+</script>
+                  </event>
+                  <caption>
+                     <font typeface="Myriad Pro" size="7.8pt" weight="bold"/>
+                  </caption>
+               </field>
+               <field name="Cell2" h="28.222mm" w="1.518694in" y="0mm">
+                  <ui>
+                     <choiceList/>
+                  </ui>
+                  <font typeface="Myriad Pro" size="7.8pt">
+                     <fill>
+                        <color value="51,51,51"/>
+                     </fill>
+                  </font>
+                  <margin topInset="1.4111mm" bottomInset="1.4111mm" leftInset="1.4111mm" rightInset="1.4111mm"/>
+                  <border>
+                     <edge>
+                        <color value="57,109,138"/>
+                     </edge>
+                     <corner thickness="0.1778mm">
+                        <color value="57,109,138"/>
+                     </corner>
+                  </border>
+                  <items save="1"/>
+                  <event activity="initialize" name="event__initialize">
+                     <script contentType="application/x-javascript">this.setItems(
+    "1. We have a plan to grow \u000aour leadership group so \u000athat I will no longer be \u000aneeded in the day-to-day \u000aoperations of the business\u000a,2. I have an up-to-date \u000aorganisational chart\u000a,3. I have an organisational \u000achart for what the business \u000awill look like in five years’ \u000atime when we have \u000adoubled our revenue and \u000ahave shared this with the \u000ateam\u000a,4. Each team member \u000aunderstands how their \u000aachievements will be \u000ameasured;i.e. via Key \u000aPerformance Indicators \u000a(KPIs)\u000a,5. I hold weekly functional \u000ateam meetings (e.g. \u000aFinance/Sales/Operations\u000a/Marketing/Management;\u000awhich result in \u000aaccountable actions with \u000ameasurable outcomes\u000a,6. I delegate to my team \u000aand empower them to \u000amake decisions that benefit \u000athe business\u000a,7. We have a documented \u000arecruitment process for \u000aeach role in the business\u000a,8. Every team member \u000aunderstands what their \u000aroles and responsibilities \u000aare\u000a,9. Our Culture has been \u000aidentified;written down \u000aand shared with the team\u000a,10. I have weekly meetings \u000awith key team members \u000aand have a structured \u000aperformance \u000amanagement process\u000a,11. I have a documented \u000ainduction and ongoing \u000atraining process for all \u000ateam members\u000a,--Flight Plan 6+ Options--\u000a,12. Management team \u000adesign and progression \u000aa weekly focus\u000a,13. Questions vs Listening \u000aratios improving and \u000ascoreboard driven. \u000a(Vs emotions)\u000a,14. Talent Mapping of all \u000aroles in the business are \u000aup to date.\u000a",1
+)
+
+if (this.rawValue == null){
+	this.selectedIndex = 0;
+}
+</script>
+                  </event>
+                  <caption>
+                     <font typeface="Myriad Pro" size="7.8pt" weight="bold"/>
+                  </caption>
+               </field>
+               <field name="Cell2" h="28.222mm" w="1.518694in" y="0mm">
+                  <ui>
+                     <choiceList/>
+                  </ui>
+                  <font typeface="Myriad Pro" size="7.8pt">
+                     <fill>
+                        <color value="51,51,51"/>
+                     </fill>
+                  </font>
+                  <margin topInset="1.4111mm" bottomInset="1.4111mm" leftInset="1.4111mm" rightInset="1.4111mm"/>
+                  <border>
+                     <edge>
+                        <color value="57,109,138"/>
+                     </edge>
+                     <corner thickness="0.1778mm">
+                        <color value="57,109,138"/>
+                     </corner>
+                  </border>
+                  <items save="1"/>
+                  <event activity="initialize" name="event__initialize">
+                     <script contentType="application/x-javascript">this.setItems(
+    "1. The sales team \u000aundertakes regular sales \u000atraining\u000a,2. All our clients have \u000abeen graded as A;  B;  C;  or \u000aD\u000a,3. I have a systemised \u000areferral strategy in place;  \u000aand it is being tested and \u000ameasured\u000a,4. I have identified my target \u000amarket and market \u000aspecifically to them– \u000aeverything we do in \u000amarketing and sales is \u000aabout them\u000a,5. I actively work with 3 non-\u000acompeting Strategic \u000aAlliances who target \u000athe same market as I do,\u000a14. I have a structured 7 step \u000a(multi step) sales process \u000aand I measure the \u000aconversion rate and \u000atimeline between each \u000astep\u000a,6. The team use sales \u000ascripts and processes that \u000aare documented – and \u000aknow how to upsell and \u000across sell\u000a,7. I am actively using a \u000aminimum of 5 different \u000aways to generate leads in \u000athe business;  and they are \u000aall tested and measured\u000a,8. Our Quote Register and \u000afollow up process is \u000aupdated weekly\u000a,9. The business has a \u000adatabase of clients and \u000aprospects;  and we contact \u000athem at least every 30 \u000adays with offers and \u000ainformation\u000a,10. We have \u000amonthly/quarterly sales targets that are  \u000a communicated and \u000acommitted to by everyone \u000aon the team\u000a,--Flight Plan 6+ Options--\u000a,11. ITM is GP% driven and \u000areviewing our Quotes \u000aRegister weekly in the % \u000aof jobs/client's growth\u000a,12. Rule of 3’s mastery is \u000aoverlayed within our Sales \u000aProcess and tested and \u000ameasured.\u000a,13. Resourcing our \u000aLeadflow team is driven \u000avia scoreboards and \u000aconstant  activities we \u000a are executing within \u000aROI plans.\u000a",1
+)
+
+if (this.rawValue == null){
+	this.selectedIndex = 0;
+}
+
+</script>
+                  </event>
+                  <caption>
+                     <font typeface="Myriad Pro" size="7.8pt" weight="bold"/>
+                  </caption>
+               </field>
+               <field name="Cell2" h="28.222mm" w="1.518694in" y="0mm">
+                  <ui>
+                     <choiceList/>
+                  </ui>
+                  <font typeface="Myriad Pro" size="7.8pt">
+                     <fill>
+                        <color value="51,51,51"/>
+                     </fill>
+                  </font>
+                  <margin topInset="1.4111mm" bottomInset="1.4111mm" leftInset="1.4111mm" rightInset="1.4111mm"/>
+                  <border>
+                     <edge>
+                        <color value="57,109,138"/>
+                     </edge>
+                     <corner thickness="0.1778mm">
+                        <color value="57,109,138"/>
+                     </corner>
+                  </border>
+                  <items save="1"/>
+                  <event activity="initialize" name="event__initialize">
+                     <script contentType="application/x-javascript">
+this.setItems(
+    "1. I have a Cashflow \u000aForecast for the business \u000a(13 weeks minimum) and \u000aupdate it weekly\u000a,2. I have a minimum of 3 \u000astrategies in place to \u000aincrease the Gross Profit\u000a,3. I know my Cost Per Lead \u000aand Acquisition Cost by \u000alead source\u000a,4. I know how many sales; \u000acustomers; or dollars I \u000aneed to make per day/\u000aweek or month to \u000aBreakeven inclusive of a \u000aminimum profit\u000a,5. I read and understand the \u000amonthly BBG financial \u000areport and have minimum \u000aof two areas that I am \u000aconstantly working on to \u000aimprove my net cash \u000aposition in six months’ time\u000a,6. I have an annual \u000amarketing plan that \u000ais Budget driven,\u000a12. I know the % Gross Profit \u000a(GP) that I make on \u000aevery sale\u000a,7. I budget for Profit and \u000ahave set daily/weekly/\u000amonthly profit goals\u000a,8. I set time aside at the end \u000aof each month to review \u000amy key numbers and \u000abusiness’ performance\u000a,--Flight Plan 6+ Options--\u000a,9. I have a 52-week rolling \u000aCashflow Forecasting \u000awhich includes QR and \u000aWIP and it is reviewed \u000aweekly\u000a,10. Seven levers to a \u000aprofitable model \u000astrategy/ies being \u000aexecuted within the 90-\u000aday plans.\u000a,11. Pricing and business \u000amodels constantly \u000areviewed and measured.\u000a",1
+)
+
+if (this.rawValue == null){
+	this.selectedIndex = 0;
+}
+
+
+
+</script>
+                  </event>
+                  <caption>
+                     <font typeface="Myriad Pro" size="7.8pt" weight="bold"/>
+                  </caption>
+               </field>
+               <field name="Cell2" h="28.222mm" w="1.518694in" y="0mm">
+                  <ui>
+                     <choiceList/>
+                  </ui>
+                  <font typeface="Myriad Pro" size="7.8pt">
+                     <fill>
+                        <color value="51,51,51"/>
+                     </fill>
+                  </font>
+                  <margin topInset="1.4111mm" bottomInset="1.4111mm" leftInset="1.4111mm" rightInset="1.4111mm"/>
+                  <border>
+                     <edge>
+                        <color value="57,109,138"/>
+                     </edge>
+                     <corner thickness="0.1778mm">
+                        <color value="57,109,138"/>
+                     </corner>
+                  </border>
+                  <items save="1"/>
+                  <event activity="initialize" name="event__initialize">
+                     <script contentType="application/x-javascript">this.setItems(
+    "1. We regularly survey our \u000acustomers to determine \u000ahow we can better serve \u000athem\u000a,2. All tasks that can \u000apossibly be automated \u000ahave been; and the\u000ateam are responsible \u000afor delegating more \u000atasks to automation \u000aas appropriate\u000a,3. There are documented \u000aflow charts / procedures \u000ain place to ensure\u000a every customer \u000aexperience is the same\u000a,4. The business analyses \u000aits mistakes; and we \u000atake active steps to \u000aensure the error cannot \u000aoccur again by \u000aupgrading our systems\u000a,5. We consistently review \u000aour cost and way of doing \u000abusiness and are looking \u000afor improvements in \u000aefficiencies whether that is \u000apeople or machines\u000a,6. The business has \u000adefined customer service \u000alevels that all team \u000a members are aware of and \u000aare amonitored against\u000a,7. We consistently \u000abrainstorm as a team,\u000aways to exceed \u000aour customer expectations\u000a,--Flight Plan 6+ Options--\u000a,8. Client and team lifetime \u000avalue scores are confirmed; \u000aand improvement plans \u000aare being actioned.\u000a,9. Team capacity and \u000autilisation is 85% weekly/\u000amonthly and reviewed \u000aconstantly.\u000a,10. ‘A’ grade client ratio \u000aof total clients is at 65% + \u000aby jobs and dollar value \u000ainvoiced\u000a,11. The business is \u000aworking on an updated \u000aversion of the  \u000aOperations ‘Bible’ for all \u000aareas in the business.\u000a",1
+)
+
+if (this.rawValue == null){
+	this.selectedIndex = 0;
+}
+
+
+
+</script>
+                  </event>
+                  <caption>
+                     <font typeface="Myriad Pro" size="7.8pt" weight="bold"/>
+                  </caption>
+               </field>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+               <?templateDesigner expand 1?></subform>
+            <subform layout="row" name="Row3" y="0mm">
+               <assist role="TR"/>
+               <field name="Cell2" h="28.222mm" w="1.518694in">
+                  <ui>
+                     <choiceList/>
+                  </ui>
+                  <font typeface="Myriad Pro" size="7.8pt">
+                     <fill>
+                        <color value="51,51,51"/>
+                     </fill>
+                  </font>
+                  <margin topInset="1.4111mm" bottomInset="1.4111mm" leftInset="1.4111mm" rightInset="1.4111mm"/>
+                  <border>
+                     <edge>
+                        <color value="57,109,138"/>
+                     </edge>
+                     <corner thickness="0.1778mm">
+                        <color value="57,109,138"/>
+                     </corner>
+                  </border>
+                  <items save="1"/>
+                  <event activity="initialize" name="event__initialize">
+                     <script contentType="application/x-javascript">this.setItems(
+    "1. The business has a \u000adefault diary that the \u000ateam refer to daily / \u000aweekly / monthly\u000a,2. I regularly review my  \u000alow value tasks and  \u000aconsistently delegate / \u000aoutsource them\u000a,3. My annual goals are \u000abroken down into quarterly/ \u000a monthly/weekly/daily \u000aactions\u000a,4. I have audited my time \u000afor a week and understand \u000awhere my time is effective \u000aand / or wasted\u000a,5. I have a regular time in \u000awhich I plan the following \u000aweek and prioritise my key \u000aactivities\u000a,6. I have time slots in my \u000adiary for my own \u000ahealth and enjoyment \u000a– understanding that \u000alife balance is important \u000ato the productivity of my \u000abusiness\u000a,7. I have a default diary \u000aand refer to it \u000adaily/weekly/\u000amonthly\u000a,8. I have an allocated \u000a‘hour of power’ \u000a(owner’s time) each week \u000ato conduct my thinking \u000atime for the business\u000a,9. I have a ‘things to achieve’ \u000avs a ‘things to do’ plan\u000a,--Flight Plan 6+ Options--\u000a,10. Allocated Exitability \u000athinking time of 2 hours \u000aper week\u000a,11. Board Writing time per \u000aweek allocated\u000a,12. ‘A’ grade stakeholders \u000afeedback time allocated \u000aweekly\u000a",1
+)
+
+if (this.rawValue == null){
+	this.selectedIndex = 0;
+}
+
+
+</script>
+                  </event>
+                  <caption>
+                     <font typeface="Myriad Pro" size="7.8pt" weight="bold"/>
+                  </caption>
+               </field>
+               <field name="Cell2" h="28.222mm" w="1.518694in">
+                  <ui>
+                     <choiceList/>
+                  </ui>
+                  <font typeface="Myriad Pro" size="7.8pt">
+                     <fill>
+                        <color value="51,51,51"/>
+                     </fill>
+                  </font>
+                  <margin topInset="1.4111mm" bottomInset="1.4111mm" leftInset="1.4111mm" rightInset="1.4111mm"/>
+                  <border>
+                     <edge>
+                        <color value="57,109,138"/>
+                     </edge>
+                     <corner thickness="0.1778mm">
+                        <color value="57,109,138"/>
+                     </corner>
+                  </border>
+                  <items save="1"/>
+                  <event activity="initialize" name="event__initialize">
+                     <script contentType="application/x-javascript">this.setItems(
+    "1. We have a plan to grow \u000aour leadership group; so \u000athat I will no longer be \u000aneeded in the day-to-day \u000aoperations of the business\u000a,2. I have an up-to-date \u000aorganisational chart\u000a,3. I have an organisational \u000achart for what the business \u000awill look like in five years’ \u000atime when we have \u000adoubled our revenue and \u000ahave shared this with the \u000ateam\u000a,4. Each team member \u000aunderstands how their \u000aachievements will be \u000ameasured; i.e. via Key \u000aPerformance Indicators \u000a(KPIs)\u000a,5. I hold weekly functional \u000ateam meetings (e.g. \u000aFinance/Sales/Operations\u000a/Marketing/Management; \u000awhich result in \u000aaccountable actions with \u000ameasurable outcomes\u000a,6. I delegate to my team \u000aand empower them to \u000amake decisions that \u000abenefit the business\u000a,7. We have a documented \u000arecruitment process for \u000aeach role in the business\u000a,8. Every team member \u000aunderstands what their \u000aroles and responsibilities \u000aare\u000a,9. Our Culture has been \u000aidentified; written down \u000aand shared with the team\u000a,10. I have weekly meetings \u000awith key team members \u000aand have a structured \u000aperformance \u000amanagement process\u000a,11. I have a documented \u000ainduction and ongoing \u000atraining process for all \u000ateam members\u000a,--Flight Plan 6+ Options--\u000a,12. Management team \u000adesign and progression \u000aa weekly focus\u000a,13. Questions vs Listening \u000aratios improving and \u000ascoreboard driven. \u000a(Vs emotions)\u000a,14. Talent Mapping of all \u000aroles in the business are \u000aup to date.\u000a",1
+)
+
+if (this.rawValue == null){
+	this.selectedIndex = 0;
+}
+</script>
+                  </event>
+                  <caption>
+                     <font typeface="Myriad Pro" size="7.8pt" weight="bold"/>
+                  </caption>
+               </field>
+               <field name="Cell2" h="28.222mm" w="1.518694in">
+                  <ui>
+                     <choiceList/>
+                  </ui>
+                  <font typeface="Myriad Pro" size="7.8pt">
+                     <fill>
+                        <color value="51,51,51"/>
+                     </fill>
+                  </font>
+                  <margin topInset="1.4111mm" bottomInset="1.4111mm" leftInset="1.4111mm" rightInset="1.4111mm"/>
+                  <border>
+                     <edge>
+                        <color value="57,109,138"/>
+                     </edge>
+                     <corner thickness="0.1778mm">
+                        <color value="57,109,138"/>
+                     </corner>
+                  </border>
+                  <items save="1"/>
+                  <event activity="initialize" name="event__initialize">
+                     <script contentType="application/x-javascript">this.setItems(
+    "1. The sales team \u000aundertakes regular sales \u000atraining\u000a,2. All our clients have \u000abeen graded as A; B; C; or \u000aD\u000a,3. I have a systemised \u000areferral strategy in place; \u000aand it is being tested and \u000ameasured\u000a,4. I have identified my \u000atarget market and market \u000aspecifically to them– \u000aeverything we do in \u000amarketing and sales is \u000aabout them\u000a,5. I actively work with \u000a3 non-competing Strategic \u000aAlliances who target \u000athe same market as I do,\u000a6. I have a structured \u000a7 step (multi step) \u000asales process and I measure \u000athe conversion rate and \u000atimeline between each \u000astep\u000a,7. The team use sales \u000ascripts and processes that \u000aare documented – and \u000aknow how to upsell and \u000across sell\u000a,8. I am actively using a \u000aminimum of 5 different \u000aways to generate leads in \u000athe business; and they are \u000aall tested and measured\u000a,9. Our Quote Register and \u000afollow up process is \u000aupdated weekly\u000a,10. The business has a \u000adatabase of clients and \u000aprospects; and we contact \u000athem at least every 30 \u000adays with offers and \u000ainformation\u000a,11. We have \u000amonthly/quarterly sales \u000atargets that are \u000acommunicated and \u000acommitted to by everyone \u000aon the team\u000a,--Flight Plan 6+ Options--\u000a,12. ITM is GP% driven and \u000areviewing our Quotes \u000aRegister weekly in the % \u000aof jobs/client's growth\u000a,13. Rule of 3’s mastery is \u000aoverlayed within our Sales \u000aProcess and tested and \u000ameasured.\u000a,14. Resourcing our \u000aLeadflow team is driven \u000avia scoreboards and \u000aconstant activities we are \u000aexecuting within ROI plans.\u000a",1
+)
+
+
+if (this.rawValue == null){
+	this.selectedIndex = 0;
+}
+
+</script>
+                  </event>
+                  <caption>
+                     <font typeface="Myriad Pro" size="7.8pt" weight="bold"/>
+                  </caption>
+               </field>
+               <field name="Cell2" h="28.222mm" w="1.518694in">
+                  <ui>
+                     <choiceList/>
+                  </ui>
+                  <font typeface="Myriad Pro" size="7.8pt">
+                     <fill>
+                        <color value="51,51,51"/>
+                     </fill>
+                  </font>
+                  <margin topInset="1.4111mm" bottomInset="1.4111mm" leftInset="1.4111mm" rightInset="1.4111mm"/>
+                  <border>
+                     <edge>
+                        <color value="57,109,138"/>
+                     </edge>
+                     <corner thickness="0.1778mm">
+                        <color value="57,109,138"/>
+                     </corner>
+                  </border>
+                  <items save="1"/>
+                  <event activity="initialize" name="event__initialize">
+                     <script contentType="application/x-javascript">this.setItems(
+    "1. I have a Cashflow \u000aForecast for the business \u000a(13 weeks minimum) and \u000aupdate it weekly\u000a,2. I have a minimum of 3 \u000astrategies in place to \u000aincrease the Gross Profit\u000a,3. I know my Cost Per \u000aLead and Acquisition \u000aCost by lead source\u000a,4. I know how many sales; \u000acustomers; or dollars I \u000aneed to make per day/\u000aweek or month to \u000aBreakeven inclusive of a \u000aminimum profit\u000a,5. I read and understand \u000athe monthly BBG \u000afinancial report and have \u000aminimum of two areas \u000athat I am constantly \u000aworking on to improve \u000amy net cash position in \u000asix months’ time\u000a,6. I have an annual \u000amarketing plan that \u000ais Budget driven\u000a,7. I know the % Gross \u000aProfit (GP) that I make \u000aon every sale\u000a,8. I budget for Profit and \u000ahave set daily/weekly/\u000amonthly profit goals\u000a,9. I set time aside at the \u000aend of each month to \u000areview my key numbers \u000aand business’ performance\u000a,--Flight Plan 6+ Options--\u000a,10. I have a 52-week \u000arolling Cashflow \u000aForecasting which includes \u000aQR and WIP and it is \u000areviewed weekly\u000a,11. Seven levers to a \u000aprofitable model \u000astrategy/ies being \u000aexecuted within the 90-\u000aday plans.\u000a,12. Pricing and business \u000amodels constantly \u000areviewed and measured.\u000a",1
+)
+
+if (this.rawValue == null){
+	this.selectedIndex = 0;
+}
+
+</script>
+                  </event>
+                  <caption>
+                     <font typeface="Myriad Pro" size="7.8pt" weight="bold"/>
+                  </caption>
+               </field>
+               <field name="Cell2" h="28.222mm" w="1.518694in">
+                  <ui>
+                     <choiceList/>
+                  </ui>
+                  <font typeface="Myriad Pro" size="7.8pt">
+                     <fill>
+                        <color value="51,51,51"/>
+                     </fill>
+                  </font>
+                  <margin topInset="1.4111mm" bottomInset="1.4111mm" leftInset="1.4111mm" rightInset="1.4111mm"/>
+                  <border>
+                     <edge>
+                        <color value="57,109,138"/>
+                     </edge>
+                     <corner thickness="0.1778mm">
+                        <color value="57,109,138"/>
+                     </corner>
+                  </border>
+                  <items save="1"/>
+                  <event activity="initialize" name="event__initialize">
+                     <script contentType="application/x-javascript">this.setItems(
+    "1. We regularly survey \u000aour customers to \u000adetermine how we can \u000abetter serve them\u000a,2. All tasks that can \u000apossibly be automated \u000ahave been; and the team \u000aare responsible for \u000adelegating more tasks to \u000aautomation as appropriate\u000a,3. There are documented \u000aflow charts / procedures \u000ain place to ensure every \u000acustomer experience is \u000athe same\u000a,4. The business analyses \u000aits mistakes; and we take \u000aactive steps to ensure the \u000aerror cannot occur again \u000aby upgrading our systems\u000a,5. We consistently review \u000aour cost and way of doing \u000abusiness and are looking \u000afor improvements in \u000aefficiencies whether that is \u000apeople or machines\u000a,6. The business has defined \u000acustomer service levels \u000athat all team members are \u000aaware of and are \u000amonitored against\u000a,7. We consistently \u000abrainstorm as a team; \u000aways to exceed our \u000acustomer expectations\u000a,--Flight Plan 6+ Options--\u000a,8. Client and team lifetime \u000avalue scores are confirmed; \u000aand improvement plans \u000aare being actioned.\u000a,9. Team capacity and \u000autilisation is 85% weekly/\u000amonthly and reviewed \u000aconstantly.\u000a,10. ‘A’ grade client ratio of \u000atotal clients is at \u000a65% + by jobs and \u000adollar value invoiced\u000a,11. The business is \u000aworking on an updated \u000aversion of the Operations \u000a‘Bible’ for all areas \u000ain the business.\u000a",1
+)
+if (this.rawValue == null){
+	this.selectedIndex = 0;
+}
+
+</script>
+                  </event>
+                  <caption>
+                     <font typeface="Myriad Pro" size="7.8pt" weight="bold"/>
+                  </caption>
+               </field>
+               <border>
+                  <edge presence="hidden"/>
+               </border>
+               <?templateDesigner expand 1?></subform>
+         </subform>
+         <field name="TextField2" y="231.15mm" w="192.619mm" h="21.035mm" x="5.262mm">
+            <ui>
+               <textEdit multiLine="1" hScrollPolicy="off" vScrollPolicy="off">
+                  <border>
+                     <edge>
+                        <color value="116,145,160"/>
+                     </edge>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <edge presence="hidden"/>
+                     <corner>
+                        <color value="116,145,160"/>
+                     </corner>
+                     <corner/>
+                     <corner/>
+                     <corner/>
+                  </border>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font typeface="Arial" size="11pt">
+               <fill>
+                  <color value="51,51,51"/>
+               </fill>
+            </font>
+            <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+            <caption reserve="6.3466mm" placement="top">
+               <font typeface="Circular Std" weight="bold">
+                  <fill>
+                     <color value="57,109,138"/>
+                  </fill>
+               </font>
+               <para vAlign="middle"/>
+               <value>
+                  <text>PLEDGE: We understand that by achieving these outcomes, we will celebrate by</text>
+               </value>
+            </caption>
+         </field>
+         <draw name="Line1" y="257.391mm" x="5.373mm" w="14.111mm" h="=0mm">
+            <value>
+               <line>
+                  <edge thickness="0.7056mm">
+                     <color value="240,0,80"/>
+                  </edge>
+               </line>
+            </value>
+            <margin leftInset="0mm"/>
+         </draw>
+         <draw name="Text3" y="261.768mm" w="53.903mm" h="10.16mm" x="5.373mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text>T 03 9001 0878&#x2029;businessbenchmarkgroup.com.au</text>
+            </value>
+            <font size="8pt" typeface="Gotham" baselineShift="0pt">
+               <fill>
+                  <color value="107,128,148"/>
+               </fill>
+            </font>
+            <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0mm" rightInset="0.5mm"/>
+            <para lineHeight="12pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" marginLeft="0pt" marginRight="0pt"/>
+         </draw>
+         <draw name="Text3" y="261.768mm" w="116.253mm" h="0.5275in" x="64.476mm">
+            <ui>
+               <textEdit/>
+            </ui>
+            <value>
+               <text>PO BOX 3204, EAST 3109&#x2029;L8 / WESTFIELD TOWER 619; DONCASTER ROAD, DONCASTER VIC 3019</text>
+            </value>
+            <font size="8pt" typeface="Gotham">
+               <fill>
+                  <color value="107,128,148"/>
+               </fill>
+            </font>
+            <margin topInset="0.5mm" bottomInset="0.5mm" leftInset="0mm" rightInset="0.5mm"/>
+            <para lineHeight="12pt"/>
+         </draw>
+         <field name="TextField3" y="12.076mm" x="73.433mm" w="17.987mm" h="9mm">
+            <ui>
+               <textEdit>
+                  <border presence="hidden"/>
+                  <margin/>
+               </textEdit>
+            </ui>
+            <font size="16pt" typeface="Arial" weight="bold"/>
+            <margin topInset="0mm" bottomInset="0mm" leftInset="0mm" rightInset="0mm"/>
+            <para vAlign="bottom"/>
+            <caption reserve="4.4066mm">
+               <para vAlign="bottom"/>
+               <value>
+                  <text>#</text>
+               </value>
+            </caption>
+            <value>
+               <text>200</text>
+            </value>
+         </field>
+         <?templateDesigner expand 1?></subform>
+      <proto/>
+      <desc>
+         <text name="version">11.0.1.20130826.2.901444.899636</text>
+      </desc>
+      <?templateDesigner Hyphenation excludeInitialCap:1, excludeAllCaps:1, wordCharCnt:7, remainCharCnt:3, pushCharCnt:3?>
+      <?templateDesigner expand 1?></subform>
+   <?templateDesigner DefaultPreviewDynamic 1?>
+   <?templateDesigner WidowOrphanControl 0?>
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-template/3.3/?>
+   <?templateDesigner DefaultLanguage JavaScript?>
+   <?templateDesigner DefaultRunAt client?>
+   <?acrobat JavaScript strictScoping?>
+   <?PDFPrintOptions embedViewerPrefs 0?>
+   <?PDFPrintOptions embedPrintOnFormOpen 0?>
+   <?PDFPrintOptions scalingPrefs 0?>
+   <?PDFPrintOptions enforceScalingPrefs 0?>
+   <?PDFPrintOptions paperSource 0?>
+   <?PDFPrintOptions duplexMode 0?>
+   <?templateDesigner DefaultPreviewType interactive?>
+   <?templateDesigner DefaultPreviewPagination simplex?>
+   <?templateDesigner XDPPreviewFormat 19?>
+   <?templateDesigner DefaultCaptionFontSettings face:Circular Std;size:9;weight:bold;style:normal?>
+   <?templateDesigner DefaultValueFontSettings face:Myriad Pro;size:9;weight:normal;style:normal?>
+   <?templateDesigner Grid show:0, snap:0, units:19, color:ffffcc, origin:(0,0), interval:(9231,9231), objsnap:0, guidesnap:0, pagecentersnap:0?>
+   <?templateDesigner FormTargetVersion 33?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:0, crosshairs:0?>
+   <?templateDesigner Guidelines v:136006;v:45751;h:76498;h:450737;h:453005?>
+   <?templateDesigner Zoom 75?>
+   <?templateDesigner SaveTaggedPDF 1?>
+   <?templateDesigner SavePDFWithEmbeddedFonts 1?></template>
+<config xmlns="http://www.xfa.org/schema/xci/3.0/">
+   <agent name="designer">
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+      </pdf>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <pdf>
+         <!--  [0..n]  -->
+         <version>1.7</version>
+         <adobeExtensionLevel>8</adobeExtensionLevel>
+      </pdf>
+      <common/>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+   <psMap>
+      <font typeface="Calibre Medium" psName="Calibre-Medium" weight="normal" posture="normal"/>
+      <font typeface="Calibre Regular" psName="Calibre-Regular" weight="normal" posture="normal"/>
+      <font typeface="Calibre Black" psName="Calibre-Black" weight="normal" posture="normal"/>
+      <font typeface="Calibre Bold" psName="Calibre-Bold" weight="normal" posture="normal"/>
+      <font typeface="Calibri" psName="Calibri" weight="normal" posture="normal"/>
+      <font typeface="Calibri" psName="Calibri-Bold" weight="bold" posture="normal"/>
+      <font typeface="Circular Std Medium" psName="CircularStd-Medium" weight="normal" posture="normal"/>
+      <font typeface="Circular Std Book" psName="CircularStd-Book" weight="normal" posture="normal"/>
+      <font typeface="Circular Std Bold" psName="CircularStd-Bold" weight="normal" posture="normal"/>
+      <font typeface="Circular Std Black" psName="CircularStd-Black" weight="normal" posture="normal"/>
+      <font typeface="IBM Plex Sans" psName="IBMPlexSans" weight="normal" posture="normal"/>
+      <font typeface="Config" psName="Config-Regular" weight="normal" posture="normal"/>
+      <font typeface="Config ExtraBold" psName="Config-ExtraBold" weight="normal" posture="normal"/>
+      <font typeface="Config" psName="Config-Bold" weight="bold" posture="normal"/>
+      <font typeface="Gotham Narrow" psName="GothamNarrow-Medium" weight="normal" posture="normal"/>
+      <font typeface="Gotham" psName="Gotham-Bold" weight="bold" posture="normal"/>
+      <font typeface="Gotham Narrow" psName="GothamNarrow-Bold" weight="bold" posture="normal"/>
+      <font typeface="Gotham" psName="Gotham-Book" weight="normal" posture="normal"/>
+   </psMap>
+</config>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">
+   <locale name="en_GB" desc="English (United Kingdom)">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>January</month>
+            <month>February</month>
+            <month>March</month>
+            <month>April</month>
+            <month>May</month>
+            <month>June</month>
+            <month>July</month>
+            <month>August</month>
+            <month>September</month>
+            <month>October</month>
+            <month>November</month>
+            <month>December</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>Jan</month>
+            <month>Feb</month>
+            <month>Mar</month>
+            <month>Apr</month>
+            <month>May</month>
+            <month>Jun</month>
+            <month>Jul</month>
+            <month>Aug</month>
+            <month>Sep</month>
+            <month>Oct</month>
+            <month>Nov</month>
+            <month>Dec</month>
+         </monthNames>
+         <dayNames>
+            <day>Sunday</day>
+            <day>Monday</day>
+            <day>Tuesday</day>
+            <day>Wednesday</day>
+            <day>Thursday</day>
+            <day>Friday</day>
+            <day>Saturday</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>Sun</day>
+            <day>Mon</day>
+            <day>Tue</day>
+            <day>Wed</day>
+            <day>Thu</day>
+            <day>Fri</day>
+            <day>Sat</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>BC</era>
+            <era>AD</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE, D MMMM YYYY</datePattern>
+         <datePattern name="long">D MMMM YYYY</datePattern>
+         <datePattern name="med">D MMM YYYY</datePattern>
+         <datePattern name="short">DD/MM/YYYY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">HH:MM:SS Z</timePattern>
+         <timePattern name="long">HH:MM:SS Z</timePattern>
+         <timePattern name="med">HH:MM:SS</timePattern>
+         <timePattern name="short">HH:MM</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$z,zz9.99</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">.</numberSymbol>
+         <numberSymbol name="grouping">,</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">£</currencySymbol>
+         <currencySymbol name="isoname">GBP</currencySymbol>
+         <currencySymbol name="decimal">.</currencySymbol>
+      </currencySymbols>
+      <typefaces>
+         <typeface name="Myriad Pro"/>
+         <typeface name="Minion Pro"/>
+         <typeface name="Courier Std"/>
+         <typeface name="Adobe Pi Std"/>
+         <typeface name="Adobe Hebrew"/>
+         <typeface name="Adobe Arabic"/>
+         <typeface name="Adobe Thai"/>
+         <typeface name="Kozuka Gothic Pro-VI M"/>
+         <typeface name="Kozuka Mincho Pro-VI R"/>
+         <typeface name="Adobe Ming Std L"/>
+         <typeface name="Adobe Song Std L"/>
+         <typeface name="Adobe Myungjo Std M"/>
+      </typefaces>
+   </locale>
+</localeSet>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+</xfa:datasets>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.2-c001 63.139439, 2011/06/07-10:39:26        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" rdf:about="">
+         <xmp:MetadataDate>2022-06-23T08:23:48Z</xmp:MetadataDate>
+         <xmp:CreatorTool>Adobe LiveCycle Designer 11.0</xmp:CreatorTool>
+         <xmp:ModifyDate>2022-06-23T10:09:35+03:00</xmp:ModifyDate>
+         <xmp:CreateDate>2022-06-22T10:39:55+03:00</xmp:CreateDate>
+      </rdf:Description>
+      <rdf:Description xmlns:pdf="http://ns.adobe.com/pdf/1.3/" rdf:about="">
+         <pdf:Producer>Adobe LiveCycle Designer 11.0</pdf:Producer>
+      </rdf:Description>
+      <rdf:Description xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" rdf:about="">
+         <xmpMM:DocumentID>uuid:54273b45-6c75-45ba-921e-2847280155a2</xmpMM:DocumentID>
+         <xmpMM:InstanceID>uuid:9abacb7a-1649-4cef-b260-d898f9643c01</xmpMM:InstanceID>
+      </rdf:Description>
+      <rdf:Description xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:about="">
+         <dc:format>application/pdf</dc:format>
+      </rdf:Description>
+      <rdf:Description xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" rdf:about="">
+         <desc:version rdf:parseType="Resource">
+            <rdf:value>11.0.1.20130826.2.901444.899636</rdf:value>
+            <desc:ref>/template/subform[1]</desc:ref>
+         </desc:version>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+<xfdf xmlns="http://ns.adobe.com/xfdf/" xml:space="preserve">
+   <annots/>
+</xfdf></xdp:xdp>
