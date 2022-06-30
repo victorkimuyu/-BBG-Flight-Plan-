@@ -14,6 +14,10 @@ td, th{
   @apply align-top;
 }
 
+td{
+  @apply align-top w-20;
+}
+
 @layer base {
     html {
       /* font-family: "Metropolis", system-ui, sans-serif; */
