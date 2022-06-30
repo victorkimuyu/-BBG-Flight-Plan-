@@ -610,14 +610,6 @@ html {
   width: 5rem;
 }
 
-.w-\[80px\] {
-  width: 80px;
-}
-
-.w-\[-80px\] {
-  width: -80px;
-}
-
 .flex-grow {
   flex-grow: 1;
 }
