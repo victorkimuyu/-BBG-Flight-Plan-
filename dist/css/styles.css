@@ -1,9 +1,5 @@
-@page {
-  margin: 0;
-}
-body {
-  margin: 0;
-}
+@page { margin: 0 }
+body { margin: 0 }
 .sheet {
   margin: 0;
   overflow: hidden;
@@ -12,60 +8,24 @@ body {
   page-break-after: always;
 }
 
-body.letter .sheet {
-  width: 216mm;
-  height: 279mm;
-}
-body.letter.landscape .sheet {
-  width: 280mm;
-  height: 215mm;
-}
+body.A4 .sheet { width: 210mm; height: 296mm }
 
-.sheet.padding-10mm {
-  padding: 10mm;
-}
-.sheet.padding-15mm {
-  padding: 15mm;
-}
-.sheet.padding-20mm {
-  padding: 20mm;
-}
-.sheet.padding-25mm {
-  padding: 25mm;
-}
 
+/** For screen preview **/
 @media screen {
-  body {
-    background: #e0e0e0;
-  }
+  body { background: #e0e0e0 }
   .sheet {
     background: white;
-    border: solid 1px #dcdcdc;
     margin: 5mm auto;
   }
 }
 
+/** Fix for Chrome issue #273306 **/
 @media print {
-  body.letter,
-  body.legal {
-    width: 216mm;
-  }
-  body.letter.landscape {
-    width: 280mm;
-  }
+  body.A4, body.A5.landscape { width: 210mm }
+  
 }
 
-@page {
-  size: letter;
-}
-
-li.select2-selection__choice {
-  max-width: 100%;
-  overflow: hidden;
-  /*Altered two below to make word wrap work */
-  word-wrap: normal !important;
-  white-space: normal;
-}
-ul.select2-selection__rendered {
-  padding-right: 12px !important;
+textarea:focus{
+  border-none;
 }

@@ -2,24 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
-td, th{
-  @apply border border-slate-400 p-2;
+td,
+th {
+  @apply border border-slate-400;
 }
 
-.inline-th, th{
+.inline-th,
+th {
   @apply bg-indigo-900 text-white;
 }
 
-.item-list{
-  @apply align-top;
+.item-list {
+  @apply grid-cols-1 p-2 h-36 border border-sky-700 border-t-0 border-r-0;
 }
 
-td{
+.item-list:last-child {
+  @apply border-r leading-tight;
+}
+
+td {
   @apply align-top w-20;
 }
 
-@layer base {
-    html {
-      /* font-family: "Metropolis", system-ui, sans-serif; */
-    }
-  }
+.th{
+  @apply text-center font-bold bg-sky-700 text-white text-[12px] py-2 border border-sky-900 border-r-0;
+}
+
+.th:last-child{
+  @apply border-r;
+}
+.strategy {
+  @apply grid-cols-1 p-2 h-auto border border-sky-700 border-t-0 border-r-0;
+}
+
+.strategy-h4 {
+  @apply pb-1 mb-2 border-b border-sky-900 font-bold text-slate-600;
+}
+
+.subhead {
+  @apply grid-cols-1 border border-r-0 border-sky-700 border-t-0 bg-rose-600 text-white text-xs font-bold py-1 px-1;
+}
+
+.subhead:last-child{
+  @apply border-r-sky-700;
+}
