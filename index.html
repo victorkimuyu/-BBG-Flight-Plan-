@@ -9,9 +9,10 @@
   <meta name="googlebot" content="noindex">
   <link rel="icon" href="https://businessbenchmarkgroup.com.au/wp-content/uploads/2021/03/cropped-FavIco-32x32.png"
     sizes="32x32" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Nanum+Pen+Script&display=swap"
+    rel="stylesheet">
   <title>Flight Plan | Business Benchmark Group</title>
   <link rel="stylesheet" href="dist/css/main.css">
   <link rel="stylesheet" href="dist/css/styles.css">
@@ -19,20 +20,29 @@
   <link rel="stylesheet" href="dist/fonts/Trade-Gothic/stylesheet.css">
   <link rel="stylesheet" href="dist/css/select-box.css">
   <style>
-    textarea{
+    textarea {
       background: none;
       resize: none;
-      line-height: 125%;
-      font-size: 9.5pt;
+      font-size: 10pt;
       width: 126px;
       height: 150px;
+    }
+
+    textarea:focus {
+      overflow: auto;
+      outline: none;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+      resize: none;
+
     }
   </style>
 </head>
 
-<body class="A4 text-xs">
+<body class="A4 text-[9pt] leading-[1rem]">
   <section class="sheet rounded" style="padding: 6mm 6mm 4mm">
-    <div class="flex justify-between mb-20 ml-4">
+    <div class="flex justify-between mb-16 ml-4">
       <div class="flex flex-col">
         <p class="text-sm font-semibold tracking-widest text-slate-500 pl-1">PLANNING INTENSIVE</p>
         <h1 class="text-5xl font-bold text-rose-600 tracking-tighter"
@@ -50,8 +60,10 @@
         <input type="text" name="target" id="target" placeholder="[ ]" class="border-b border-b-slate-400">
       </div>
     </div>
-    <h1 class="-rotate-90 absolute font-display font-bold text-xl tracking-widest text-sky-700" style="top:360px; left:-36px;">STRATEGIC</h1>
-    <h1 class="-rotate-90 absolute font-display font-bold text-xl tracking-widest text-rose-500" style="top:640px; left:-28px;">TACTICAL</h1>
+    <h1 class="-rotate-90 absolute font-display font-bold text-xl tracking-widest text-sky-700"
+      style="top:360px; left:-36px;">STRATEGIC</h1>
+    <h1 class="-rotate-90 absolute font-display font-bold text-xl tracking-widest text-rose-500"
+      style="top:640px; left:-28px;">TACTICAL</h1>
     <br>
     <div class="grid grid-flow-col grid-cols-12 ml-8">
       <div class="grid col-span-12">
@@ -63,23 +75,23 @@
         <div class="grid grid-cols-5">
           <div class="strategy bg-yellow-100 ">
             <h4 class="strategy-h4">Major/Minor 1</h4>
-            <textarea></textarea>
+            <textarea class="ta"></textarea>
           </div>
           <div class="strategy bg-yellow-100 ">
             <h4 class="strategy-h4">Major/Minor 1</h4>
-            <textarea></textarea>
+            <textarea class="ta"></textarea>
           </div>
-          <div class="strategy bg-rose-300 ">
+          <div class="strategy bg-rose-100 ">
             <h4 class="strategy-h4">Major/Minor 1</h4>
-            <textarea></textarea>
+            <textarea class="ta"></textarea>
           </div>
-          <div class="strategy bg-rose-300 ">
+          <div class="strategy bg-rose-100 ">
             <h4 class="strategy-h4">Major/Minor 1</h4>
-            <textarea></textarea>
+            <textarea class="ta"></textarea>
           </div>
           <div class="grid-cols-1 p-2 h-auto border border-sky-800 border-t-0 bg-green-100 ">
             <h4 class="strategy-h4">Major/Minor 1</h4>
-            <textarea></textarea>
+            <textarea class="ta"></textarea>
           </div>
         </div>
         <div class="grid grid-cols-5">
@@ -89,31 +101,45 @@
           <div class="subhead">FINANCE</div>
           <div class="subhead">OPERATIONS</div>
         </div>
-        
+
         <div class="grid grid-cols-5">
-          <div class="item-list">Something</div>
-          <div class="item-list">Something</div>
-          <div class="item-list">Something</div>
-          <div class="item-list">Something</div>
-          <div class="item-list border ">Something</div>
+          <div class="item-list"><textarea></textarea></div>
+          <div class="item-list"><textarea></textarea></div>
+          <div class="item-list"><textarea></textarea></div>
+          <div class="item-list"><textarea></textarea></div>
+          <div class="item-list border "><textarea></textarea></div>
         </div>
-        
+
         <div class="grid grid-cols-5">
-          <div class="item-list">Something</div>
-          <div class="item-list">Something</div>
-          <div class="item-list">Something</div>
-          <div class="item-list">Something</div>
-          <div class="item-list">Something</div>
+          <div class="item-list"><textarea></textarea></div>
+          <div class="item-list"><textarea></textarea></div>
+          <div class="item-list"><textarea></textarea></div>
+          <div class="item-list"><textarea></textarea></div>
+          <div class="item-list"><textarea></textarea></div>
         </div>
-        
+
         <div class="grid grid-cols-5">
-          <div class="item-list">Something</div>
-          <div class="item-list">Something</div>
-          <div class="item-list">Something</div>
-          <div class="item-list">Something</div>
-          <div class="item-list">Something</div>
+          <div class="item-list"><textarea></textarea></div>
+          <div class="item-list"><textarea></textarea></div>
+          <div class="item-list"><textarea></textarea></div>
+          <div class="item-list"><textarea></textarea></div>
+          <div class="item-list"><textarea></textarea></div>
         </div>
       </div>
+    </div>
+    <div class="ml-8 mt-4 footer">
+      <label for="celebration" class="font-semibold text-[10pt] text-slate-500">PLEDGE: We understand that by achieving
+        these outcomes, we will celebrate by</label>
+      <textarea name="" id="" class="ta w-full h-20 mt-1 p-2 border border-slate-500 rounded-md "></textarea>
+    </div>
+    <div class="flex border border-b-2 border-b-rose-600 w-16 ml-8 mt-4">
+
+    </div>
+    <div class="address flex flex-cols-12 ml-8 mt-3 text-slate-500 font-display tracking-wider leading-4 text-[7pt]">
+      <p class="text-[8pt] tracking-widest"><span class="font-bold text-slate-600">T</span> 03 9001 0878 <br><a
+          href="https://businessbenchmarkgroup.com.au">businessbenchmarkgroup.com.au</a></p>
+      <p class="ml-8 tracking-widest]">PO BOX 3204, EAST 3109 <br> L8 / WESTFIELD TOWER 619; DONCASTER ROAD,
+        DONCASTER VIC 3019</p>
     </div>
   </section>
   <script src="dist/js/select-box.js"></script>

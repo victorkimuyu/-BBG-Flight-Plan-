@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       fontFamily: {
         'sans': ['Trade-Gothic', 'system-ui'],
-        'display':['Metropolis', 'system-ui']
+        'display':['Metropolis', 'system-ui'],
+        'cursive':['Nanum Pen Script', 'system-ui']
       },
       'colors': {
         'bbg-blue': '#0b1d32',

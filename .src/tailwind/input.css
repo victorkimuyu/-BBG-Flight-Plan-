@@ -13,11 +13,11 @@ th {
 }
 
 .item-list {
-  @apply grid-cols-1 p-2 h-36 border border-sky-700 border-t-0 border-r-0;
+  @apply grid-cols-1 p-2 h-[140px] text-[8pt] leading-[140%] border border-sky-700 border-t-0 border-r-0 ;
 }
 
 .item-list:last-child {
-  @apply border-r leading-tight;
+  @apply border-r;
 }
 
 td {
@@ -36,7 +36,7 @@ td {
 }
 
 .strategy-h4 {
-  @apply pb-1 mb-2 border-b border-sky-900 font-bold text-slate-600;
+  @apply pb-1 mb-2 border-b border-sky-900 font-bold text-sky-700;
 }
 
 .subhead {
@@ -45,4 +45,15 @@ td {
 
 .subhead:last-child{
   @apply border-r-sky-700;
+}
+
+.footer .ta{
+  @apply p-1;
+}
+
+.ta{
+  @apply resize-none overflow-clip;
+}
+.ta:focus{
+  @apply border border-indigo-200 shadow-inner rounded-md;
 }
