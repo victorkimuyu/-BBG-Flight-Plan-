@@ -23,7 +23,8 @@ h2 {
   color: #222222;
   max-height: 0;
   background: #f2f2f2;
-  width: 150px;
+  width: 135px;
+  padding: 2px;
   display: none;
   transition: all 0.4s;
   overflow: hidden;
@@ -42,13 +43,12 @@ h2 {
 }
 
 .selected {
-  width: 150px;
+  width: 132px;
   background: #ffffff;
   margin-bottom: 8px;
   color: #111111;
   position: relative;
   font-size: 9pt;
-  margin-right:10px;
   order: 0;
 }
 
@@ -91,11 +91,11 @@ h2 {
 .selected {
   /* width: 148px; */
   cursor: pointer;
-  line-height: 140%;
+  line-height: 130%;
 }
 
 .option, .selected{
-    padding: 4px 6px;
+   margin-bottom: 8px;
 }
 
 
